@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "mongodb": "^6.3.0"
+    "mongodb": "^4.3.0" 
   },
   "name": "imob",
   "version": "1.0.0",
