@@ -1,0 +1,25 @@
+projeto-imobiliaria/
+│
+├── backend/              # Diretório do backend
+│   ├── controllers/      # Controladores para lidar com a lógica de negócios
+│   ├── models/           # Modelos de dados (por exemplo, modelos de imóveis)
+│   ├── routes/           # Rotas da API
+│   ├── utils/            # Utilitários ou funções auxiliares
+│   ├── app.js            # Arquivo principal do aplicativo backend
+│   └── .env              # Arquivo de variáveis de ambiente (por exemplo, configuração do banco de dados)
+│
+├── frontend/             # Diretório do frontend
+│   ├── public/           # Arquivos estáticos públicos (por exemplo, ícones, imagens)
+│   ├── src/              # Código-fonte do frontend
+│   │   ├── components/   # Componentes reutilizáveis (por exemplo, formulários, cartões de imóveis)
+│   │   ├── pages/        # Páginas da aplicação (por exemplo, página inicial, formulário de cadastro)
+│   │   ├── services/     # Funções para fazer requisições HTTP ao backend
+│   │   ├── App.js        # Componente principal da aplicação React
+│   │   ├── index.js      # Ponto de entrada do aplicativo React
+│   │   └── ...
+│   └── ...
+│
+├── node_modules/         # Dependências do Node.js (geradas automaticamente pelo npm)
+├── package.json          # Metadados do projeto e lista de dependências
+├── package-lock.json     # Versões fixas das dependências (gerado automaticamente pelo npm)
+└── ...
